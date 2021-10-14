@@ -1,0 +1,174 @@
+.App-header {
+    background: #FFF;
+  }
+  .mh-logo {
+    margin: 0 0 -10px;
+    font-size: 26px;
+    font-weight: 700;
+  }
+  .main-nav {
+    width: 90%;
+  }
+  .main-nav a {
+    font-size: 0.75em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #343534;
+    text-decoration: none;
+  }
+  .main-nav ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .center {
+    margin-top: 4em;
+    text-align: center;
+  }
+  .center a {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    color: #F34A4E;
+    border-bottom: 1px solid #F34A4E;
+    transition: all .275s;
+  }
+  .center a:hover,
+  .center a:focus {
+    opacity: 0.8;
+    padding-bottom: 2px;
+    border-bottom-color: rgba(243, 74, 95, .5);
+  }
+  
+  .container {
+    border-bottom: 1px solid linear(to-l, #7928CA,#FF0080);
+    padding: 20px;
+    margin: 0 auto;
+  }
+  .App-header .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .main-nav ul {
+    margin: 1em 0 .5em;
+  }
+  .main-nav li {
+    display: inline;
+  }
+  .main-nav a {
+    display: inline-block;
+    padding: .5em 1.5em;
+  }
+  
+  @media (min-width:960px) {
+    .App-header .container {
+      justify-content: flex-start;
+    }
+  }
+  .label{
+    margin: 20px 0px 20px 10px;
+    font-weight: 700;
+  }
+  .label-space{
+    width: 95%;
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+  }
+  .label-space-text{
+    font-size: 20px;
+    font-weight: 700;
+  }
+  hr.last-line{
+    margin: 50px;
+  }
+  .card-join-us{
+    display: flex;
+    height: 200px;
+    background-color: rgb(235, 235, 235);
+    padding: 20px;
+    margin: 10px;
+  }
+  .img-join-us{
+    width: 30%;
+    background-color: rgb(228, 150, 51);
+  }
+  .desc-join-us{
+    width: 70%;
+    height: 200px;
+    padding-left: 5px;
+  }
+  .card-join-us b{
+    font-size: 26px;
+  }
+  .card-join-us table{
+    width: 30%;
+  }
+  .card-join-us button{
+    border: 0px none;
+    background-color: gray;
+    padding: 10px 40px 10px 41px;
+    color: white;
+  }
+  .card-next-meetup{
+    background-color: rgb(235, 235, 235);
+    padding: 10px 0px 10px 20px;
+    margin: 0px 50px;
+  }
+  .card-next-meetup span{
+    color: rgb(126, 127, 118);
+  }
+  .card-about-meetup{
+    margin: 10px 0px 10px 50px;
+  }
+  .card-members{
+    display: flex;
+    background-color: rgb(235, 235, 235);
+    padding: 20px;
+    margin: 10px 50px;
+  }
+  .img-members{
+    width: 70px;
+    height: 70px;
+    background-color: rgb(228, 150, 51);
+    border-radius: 50px;
+  }
+  .desc-members{
+    width: 20%;
+    padding-left: 20px;
+    line-height: 1.5;
+  }
+  .card-members b{
+    font-size: 18px;
+  }
+  .card-members table{
+    width: 100%;
+  }
+  .card-past-meetups{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 50px;
+  }
+  .card-past-meetups-box{
+    background-color: rgb(235, 235, 235);
+    height: 200px;
+    width: 25%;
+    padding: 10px;
+  }
+  .card-past-meetups b{
+    font-size: 18px;
+  }
+  .card-past-meetups button{
+    border: 0px none;
+    background-color: gray;
+    padding: 10px 25px;
+    color: white;
+  }
+  .copyright{
+    margin: 50px;
+    text-align: center;
+  }
